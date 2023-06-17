@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NetflixStyle</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Favorite Movies</h1>
+  </header>
+  <main>
+    <table class="table table-striped table-responsive">
+      <thead>
+        <tr>
+          <th scope="col">Image</th>
+          <th scope="col">Title</th>
+          <th scope="col">Rating</th>
+          <th scope="col">Overview</th>
+          <th scope="col">Remove</th>
+
+        </tr>
+      </thead >
+      <tbody>
+        <!-- Movie rows will be dynamically added here -->
+      </tbody>
+    </table>
+    <button id="showMoviesButton">Show Movies</button>
+    <div class="netflixOriginals">
+      <div class="original__header">
+        <h2>MOVIES AND SERIES</h2>
+      </div>
+      <div id="original__movies" class="original__movies">
+        <!--  Movies List Here -->
+      </div>
+    </div>
+  </main>
+ 
+  
+  <script src="script.js"></script>
+</body>
+</html>
